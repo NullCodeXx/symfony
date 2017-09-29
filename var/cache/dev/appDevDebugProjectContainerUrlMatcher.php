@@ -108,6 +108,73 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        elseif (0 === strpos($pathinfo, '/new-entity')) {
+            // new-entity_index
+            if ('/new-entity' === $trimmedPathinfo) {
+                if ('GET' !== $canonicalMethod) {
+                    $allow[] = 'GET';
+                    goto not_newentity_index;
+                }
+
+                if (substr($pathinfo, -1) !== '/') {
+                    return $this->redirect($pathinfo.'/', 'new-entity_index');
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\ArticleController::indexAction',  '_route' => 'new-entity_index',);
+            }
+            not_newentity_index:
+
+            // new-entity_new
+            if ('/new-entity/new' === $pathinfo) {
+                if (!in_array($canonicalMethod, array('GET', 'POST'))) {
+                    $allow = array_merge($allow, array('GET', 'POST'));
+                    goto not_newentity_new;
+                }
+
+                return array (  '_controller' => 'AppBundle\\Controller\\ArticleController::newAction',  '_route' => 'new-entity_new',);
+            }
+            not_newentity_new:
+
+            // new-entity_show
+            if (preg_match('#^/new\\-entity/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if ('GET' !== $canonicalMethod) {
+                    $allow[] = 'GET';
+                    goto not_newentity_show;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'new-entity_show')), array (  '_controller' => 'AppBundle\\Controller\\ArticleController::showAction',));
+            }
+            not_newentity_show:
+
+            // new-entity_edit
+            if (preg_match('#^/new\\-entity/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+                if (!in_array($canonicalMethod, array('GET', 'POST'))) {
+                    $allow = array_merge($allow, array('GET', 'POST'));
+                    goto not_newentity_edit;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'new-entity_edit')), array (  '_controller' => 'AppBundle\\Controller\\ArticleController::editAction',));
+            }
+            not_newentity_edit:
+
+            // new-entity_delete
+            if (preg_match('#^/new\\-entity/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                if ('DELETE' !== $canonicalMethod) {
+                    $allow[] = 'DELETE';
+                    goto not_newentity_delete;
+                }
+
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'new-entity_delete')), array (  '_controller' => 'AppBundle\\Controller\\ArticleController::deleteAction',));
+            }
+            not_newentity_delete:
+
+        }
+
+        // numberRandom
+        if ('/number' === $pathinfo) {
+            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::numberAction',  '_route' => 'numberRandom',);
+        }
+
         // homepage
         if ('' === $trimmedPathinfo) {
             if (substr($pathinfo, -1) !== '/') {
@@ -115,11 +182,6 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
             }
 
             return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::indexAction',  '_route' => 'homepage',);
-        }
-
-        // numberRandom
-        if ('/number' === $pathinfo) {
-            return array (  '_controller' => 'AppBundle\\Controller\\DefaultController::numberAction',  '_route' => 'numberRandom',);
         }
 
         // stringRandom

@@ -22,54 +22,55 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_9e81ac97e4364394ef9dacba437920975ed5ddcdb995fae373bb2db31d4411ce = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9e81ac97e4364394ef9dacba437920975ed5ddcdb995fae373bb2db31d4411ce->enter($__internal_9e81ac97e4364394ef9dacba437920975ed5ddcdb995fae373bb2db31d4411ce_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_7b28eda9dc1ba44b03739877f273c712e243b4bd3c43b1572d2b04c0a5e60c30 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_7b28eda9dc1ba44b03739877f273c712e243b4bd3c43b1572d2b04c0a5e60c30->enter($__internal_7b28eda9dc1ba44b03739877f273c712e243b4bd3c43b1572d2b04c0a5e60c30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
-        $__internal_75fa3703c9bddf35a967d9bdad046a34abb5e7c47bdc9a6240bddf3cd4b1bd1c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_75fa3703c9bddf35a967d9bdad046a34abb5e7c47bdc9a6240bddf3cd4b1bd1c->enter($__internal_75fa3703c9bddf35a967d9bdad046a34abb5e7c47bdc9a6240bddf3cd4b1bd1c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
+        $__internal_5af997b8eae00f1ced6882a48e482b224bd526e52dbad1f850d6daad4218db4e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5af997b8eae00f1ced6882a48e482b224bd526e52dbad1f850d6daad4218db4e->enter($__internal_5af997b8eae00f1ced6882a48e482b224bd526e52dbad1f850d6daad4218db4e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_9e81ac97e4364394ef9dacba437920975ed5ddcdb995fae373bb2db31d4411ce->leave($__internal_9e81ac97e4364394ef9dacba437920975ed5ddcdb995fae373bb2db31d4411ce_prof);
+        $__internal_7b28eda9dc1ba44b03739877f273c712e243b4bd3c43b1572d2b04c0a5e60c30->leave($__internal_7b28eda9dc1ba44b03739877f273c712e243b4bd3c43b1572d2b04c0a5e60c30_prof);
 
         
-        $__internal_75fa3703c9bddf35a967d9bdad046a34abb5e7c47bdc9a6240bddf3cd4b1bd1c->leave($__internal_75fa3703c9bddf35a967d9bdad046a34abb5e7c47bdc9a6240bddf3cd4b1bd1c_prof);
+        $__internal_5af997b8eae00f1ced6882a48e482b224bd526e52dbad1f850d6daad4218db4e->leave($__internal_5af997b8eae00f1ced6882a48e482b224bd526e52dbad1f850d6daad4218db4e_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_ab3b4d8e32efb473fd1d8f5e8c545fec3b225621a98e1971c05f210af1536fbf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ab3b4d8e32efb473fd1d8f5e8c545fec3b225621a98e1971c05f210af1536fbf->enter($__internal_ab3b4d8e32efb473fd1d8f5e8c545fec3b225621a98e1971c05f210af1536fbf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_867e5d1072861d48db30510fd8f488296f4ff6ba9d4552b32412685d954ad749 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_867e5d1072861d48db30510fd8f488296f4ff6ba9d4552b32412685d954ad749->enter($__internal_867e5d1072861d48db30510fd8f488296f4ff6ba9d4552b32412685d954ad749_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_661f557375ca6154bf911b5db51450dbbcbcfaf843f39e6e79f258ecf29e6a40 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_661f557375ca6154bf911b5db51450dbbcbcfaf843f39e6e79f258ecf29e6a40->enter($__internal_661f557375ca6154bf911b5db51450dbbcbcfaf843f39e6e79f258ecf29e6a40_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_c95e3d45e8699e345b9ded66b11ca45681cd83a8a88666f21f07698939db040a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c95e3d45e8699e345b9ded66b11ca45681cd83a8a88666f21f07698939db040a->enter($__internal_c95e3d45e8699e345b9ded66b11ca45681cd83a8a88666f21f07698939db040a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "    <div id=\"wrapper\">
         <div id=\"container\">
             <div id=\"welcome\">
-                <h1><span>Welcome to</span> Symfony ";
+                <h1><span>Bienvenus sur Symfony</span> Symfony ";
         // line 7
         echo twig_escape_filter($this->env, twig_constant("Symfony\\Component\\HttpKernel\\Kernel::VERSION"), "html", null, true);
         echo "</h1>
+                <h2 style=\"color: brown\">PAS MAL DE CHOSE A REFAIRE, L'APPLICATION EST EN PRODUCTION</h2>
             </div>
 
             <div id=\"status\">
                 <p>
                     <svg id=\"icon-status\" width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z\" fill=\"#759E1A\"/></svg>
 
-                    Your application is now ready. You can start working on it at:
+                    L'application est fonctionnel sur le chemin :
                     <code>";
-        // line 15
+        // line 16
         echo twig_escape_filter($this->env, ($context["base_dir"] ?? $this->getContext($context, "base_dir")), "html", null, true);
         echo "</code>
                 </p>
             </div>
 
             <div id=\"next\">
-                <h2>What's next?</h2>
+                <h2>Lire la documentation, il y a rien de meilleur si l'on veut apprendre, n'est ce pas ?</h2>
                 <p>
                     <svg id=\"icon-book\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"-12.5 9 64 64\" enable-background=\"new -12.5 9 64 64\" xml:space=\"preserve\">
                         <path fill=\"#AAA\" d=\"M6.8,40.8c2.4,0.8,4.5-0.7,4.9-2.5c0.2-1.2-0.3-2.1-1.3-3.2l-0.8-0.8c-0.4-0.5-0.6-1.3-0.2-1.9
@@ -86,14 +87,21 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
                             c8,0,14.5,7,14.5,15.6S22.1,52,14.2,52C6.1,52-0.3,45-0.3,36.4z M42.1,65.1c0,1.8-1.5,3.1-3.1,3.1H4.6c-0.7,0-3-1.8-4.5-4.4h30.4
                             c2.8,0,5-2.4,5-5.4V17.9h3.7c1.6,0,2.9,1.4,2.9,3.1V65.1L42.1,65.1z\"/>
                     </svg>
-
-                    Read the documentation to learn
                     <a href=\"https://symfony.com/doc/";
-        // line 39
+        // line 38
         echo twig_escape_filter($this->env, twig_slice($this->env, twig_constant("Symfony\\Component\\HttpKernel\\Kernel::VERSION"), 0, 3), "html", null, true);
         echo "/page_creation.html\">
-                        How to create your first page in Symfony
+                        A toi de lire !
                     </a>
+                </p>
+                <p>
+                    <ul>
+                        <li><a href=\"display.html.twig\">Page de test</a></li>
+                        <li><a href=\"form.html.twig\">Ajoutez vous</a></li>
+                        <li><a href=\"form{id}.html.twig\">Vous mettre à jour</a></li>
+                        <li><a href=\"article_delete{id}\">Vous supprimer</a></li>
+                        <li><a href=\"db\">Afficher tout les profils</a></li>
+                    </ul>
                 </p>
             </div>
 
@@ -101,23 +109,23 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
     </div>
 ";
         
-        $__internal_661f557375ca6154bf911b5db51450dbbcbcfaf843f39e6e79f258ecf29e6a40->leave($__internal_661f557375ca6154bf911b5db51450dbbcbcfaf843f39e6e79f258ecf29e6a40_prof);
+        $__internal_c95e3d45e8699e345b9ded66b11ca45681cd83a8a88666f21f07698939db040a->leave($__internal_c95e3d45e8699e345b9ded66b11ca45681cd83a8a88666f21f07698939db040a_prof);
 
         
-        $__internal_ab3b4d8e32efb473fd1d8f5e8c545fec3b225621a98e1971c05f210af1536fbf->leave($__internal_ab3b4d8e32efb473fd1d8f5e8c545fec3b225621a98e1971c05f210af1536fbf_prof);
+        $__internal_867e5d1072861d48db30510fd8f488296f4ff6ba9d4552b32412685d954ad749->leave($__internal_867e5d1072861d48db30510fd8f488296f4ff6ba9d4552b32412685d954ad749_prof);
 
     }
 
-    // line 49
+    // line 57
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_2ead630255560047b8758753ab5fa79ca550eb381c825e3892dcbfb28c44076e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2ead630255560047b8758753ab5fa79ca550eb381c825e3892dcbfb28c44076e->enter($__internal_2ead630255560047b8758753ab5fa79ca550eb381c825e3892dcbfb28c44076e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_2afb885877b6b67f7ac1a2bcf45efdd651bc0998214a894d3b2c99f25aa33bab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2afb885877b6b67f7ac1a2bcf45efdd651bc0998214a894d3b2c99f25aa33bab->enter($__internal_2afb885877b6b67f7ac1a2bcf45efdd651bc0998214a894d3b2c99f25aa33bab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_473488b78c357dc764749ee5df7876e35db3507290ce373ce8e63ca4cb97058e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_473488b78c357dc764749ee5df7876e35db3507290ce373ce8e63ca4cb97058e->enter($__internal_473488b78c357dc764749ee5df7876e35db3507290ce373ce8e63ca4cb97058e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_11daf6cebee3bb77f5e708a9ebc5a640928628bec5226aa7f4633d1680da93d5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_11daf6cebee3bb77f5e708a9ebc5a640928628bec5226aa7f4633d1680da93d5->enter($__internal_11daf6cebee3bb77f5e708a9ebc5a640928628bec5226aa7f4633d1680da93d5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        // line 50
+        // line 58
         echo "<style>
     body { background: #F5F5F5; font: 18px/1.5 sans-serif; }
     h1, h2 { line-height: 1.2; margin: 0 0 .5em; }
@@ -146,10 +154,10 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
 </style>
 ";
         
-        $__internal_473488b78c357dc764749ee5df7876e35db3507290ce373ce8e63ca4cb97058e->leave($__internal_473488b78c357dc764749ee5df7876e35db3507290ce373ce8e63ca4cb97058e_prof);
+        $__internal_11daf6cebee3bb77f5e708a9ebc5a640928628bec5226aa7f4633d1680da93d5->leave($__internal_11daf6cebee3bb77f5e708a9ebc5a640928628bec5226aa7f4633d1680da93d5_prof);
 
         
-        $__internal_2ead630255560047b8758753ab5fa79ca550eb381c825e3892dcbfb28c44076e->leave($__internal_2ead630255560047b8758753ab5fa79ca550eb381c825e3892dcbfb28c44076e_prof);
+        $__internal_2afb885877b6b67f7ac1a2bcf45efdd651bc0998214a894d3b2c99f25aa33bab->leave($__internal_2afb885877b6b67f7ac1a2bcf45efdd651bc0998214a894d3b2c99f25aa33bab_prof);
 
     }
 
@@ -165,7 +173,7 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
 
     public function getDebugInfo()
     {
-        return array (  121 => 50,  112 => 49,  93 => 39,  66 => 15,  55 => 7,  50 => 4,  41 => 3,  11 => 1,);
+        return array (  129 => 58,  120 => 57,  92 => 38,  67 => 16,  55 => 7,  50 => 4,  41 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -184,20 +192,21 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
     <div id=\"wrapper\">
         <div id=\"container\">
             <div id=\"welcome\">
-                <h1><span>Welcome to</span> Symfony {{ constant('Symfony\\\\Component\\\\HttpKernel\\\\Kernel::VERSION') }}</h1>
+                <h1><span>Bienvenus sur Symfony</span> Symfony {{ constant('Symfony\\\\Component\\\\HttpKernel\\\\Kernel::VERSION') }}</h1>
+                <h2 style=\"color: brown\">PAS MAL DE CHOSE A REFAIRE, L'APPLICATION EST EN PRODUCTION</h2>
             </div>
 
             <div id=\"status\">
                 <p>
                     <svg id=\"icon-status\" width=\"1792\" height=\"1792\" viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1671 566q0 40-28 68l-724 724-136 136q-28 28-68 28t-68-28l-136-136-362-362q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 295 656-657q28-28 68-28t68 28l136 136q28 28 28 68z\" fill=\"#759E1A\"/></svg>
 
-                    Your application is now ready. You can start working on it at:
+                    L'application est fonctionnel sur le chemin :
                     <code>{{ base_dir }}</code>
                 </p>
             </div>
 
             <div id=\"next\">
-                <h2>What's next?</h2>
+                <h2>Lire la documentation, il y a rien de meilleur si l'on veut apprendre, n'est ce pas ?</h2>
                 <p>
                     <svg id=\"icon-book\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"-12.5 9 64 64\" enable-background=\"new -12.5 9 64 64\" xml:space=\"preserve\">
                         <path fill=\"#AAA\" d=\"M6.8,40.8c2.4,0.8,4.5-0.7,4.9-2.5c0.2-1.2-0.3-2.1-1.3-3.2l-0.8-0.8c-0.4-0.5-0.6-1.3-0.2-1.9
@@ -214,11 +223,18 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
                             c8,0,14.5,7,14.5,15.6S22.1,52,14.2,52C6.1,52-0.3,45-0.3,36.4z M42.1,65.1c0,1.8-1.5,3.1-3.1,3.1H4.6c-0.7,0-3-1.8-4.5-4.4h30.4
                             c2.8,0,5-2.4,5-5.4V17.9h3.7c1.6,0,2.9,1.4,2.9,3.1V65.1L42.1,65.1z\"/>
                     </svg>
-
-                    Read the documentation to learn
                     <a href=\"https://symfony.com/doc/{{ constant('Symfony\\\\Component\\\\HttpKernel\\\\Kernel::VERSION')[:3] }}/page_creation.html\">
-                        How to create your first page in Symfony
+                        A toi de lire !
                     </a>
+                </p>
+                <p>
+                    <ul>
+                        <li><a href=\"display.html.twig\">Page de test</a></li>
+                        <li><a href=\"form.html.twig\">Ajoutez vous</a></li>
+                        <li><a href=\"form{id}.html.twig\">Vous mettre à jour</a></li>
+                        <li><a href=\"article_delete{id}\">Vous supprimer</a></li>
+                        <li><a href=\"db\">Afficher tout les profils</a></li>
+                    </ul>
                 </p>
             </div>
 
@@ -254,6 +270,6 @@ class __TwigTemplate_e7dd53a1d59c18ca9afe194e1bc787facc3052bd1f139ee8df3eac6ed52
     }
 </style>
 {% endblock %}
-", "default/index.html.twig", "/Library/WebServer/Documents/solo/first-symfony/app/Resources/views/default/index.html.twig");
+", "default/index.html.twig", "/Library/WebServer/Documents/solo/symfony/app/Resources/views/default/index.html.twig");
     }
 }

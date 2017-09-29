@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.root_dir">/Library/WebServer/Documents/solo/first-symfony/app</parameter>
-    <parameter key="kernel.project_dir">/Library/WebServer/Documents/solo/first-symfony</parameter>
+    <parameter key="kernel.root_dir">/Library/WebServer/Documents/solo/symfony/app</parameter>
+    <parameter key="kernel.project_dir">/Library/WebServer/Documents/solo/symfony</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">app</parameter>
-    <parameter key="kernel.cache_dir">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/Library/WebServer/Documents/solo/first-symfony/var/logs</parameter>
+    <parameter key="kernel.cache_dir">/Library/WebServer/Documents/solo/symfony/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/Library/WebServer/Documents/solo/symfony/var/logs</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -26,67 +26,67 @@
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/monolog-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="SwiftmailerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/swiftmailer-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/swiftmailer-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SwiftmailerBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/doctrine/doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/sensio/framework-extra-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/sensio/framework-extra-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="AppBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/src/AppBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/src/AppBundle</parameter>
         <parameter key="namespace">AppBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="SensioDistributionBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/sensio/distribution-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/sensio/distribution-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\DistributionBundle</parameter>
       </parameter>
       <parameter key="SensioGeneratorBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/sensio/generator-bundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/sensio/generator-bundle</parameter>
         <parameter key="namespace">Sensio\Bundle\GeneratorBundle</parameter>
       </parameter>
       <parameter key="WebServerBundle" type="collection">
         <parameter key="parent">null</parameter>
-        <parameter key="path">/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle</parameter>
+        <parameter key="path">/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebServerBundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebServerBundle</parameter>
       </parameter>
     </parameter>
@@ -116,7 +116,7 @@
       <parameter key="cookie_httponly">true</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">/Library/WebServer/Documents/solo/first-symfony/var/sessions/dev</parameter>
+    <parameter key="session.save_path">/Library/WebServer/Documents/solo/symfony/var/sessions/dev</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
@@ -125,13 +125,13 @@
       <parameter>twig</parameter>
     </parameter>
     <parameter key="validator.mapping.cache.prefix"></parameter>
-    <parameter key="validator.mapping.cache.file">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">/Library/WebServer/Documents/solo/symfony/var/cache/dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:/Library/WebServer/Documents/solo/symfony/var/cache/dev/profiler</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/appDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">/Library/WebServer/Documents/solo/symfony/var/cache/dev/appDevDebugProjectContainer.xml</parameter>
     <parameter key="router.options.generator_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</parameter>
     <parameter key="router.options.generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\PhpGeneratorDumper</parameter>
@@ -143,7 +143,7 @@
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
-    <parameter key="router.resource">/Library/WebServer/Documents/solo/first-symfony/app/config/routing_dev.yml</parameter>
+    <parameter key="router.resource">/Library/WebServer/Documents/solo/symfony/app/config/routing_dev.yml</parameter>
     <parameter key="router.cache_class_prefix">appDevDebugProjectContainer</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
@@ -202,7 +202,7 @@
     <parameter key="swiftmailer.mailer.default.transport.smtp.timeout">30</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.source_ip">null</parameter>
     <parameter key="swiftmailer.mailer.default.transport.smtp.local_domain">null</parameter>
-    <parameter key="swiftmailer.spool.default.memory.path">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/swiftmailer/spool/default</parameter>
+    <parameter key="swiftmailer.spool.default.memory.path">/Library/WebServer/Documents/solo/symfony/var/cache/dev/swiftmailer/spool/default</parameter>
     <parameter key="swiftmailer.mailer.default.spool.enabled">true</parameter>
     <parameter key="swiftmailer.mailer.default.plugin.impersonate">null</parameter>
     <parameter key="swiftmailer.mailer.default.single_address">null</parameter>
@@ -321,7 +321,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">/Library/WebServer/Documents/solo/symfony/var/cache/dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="sensio_framework_extra.view.guesser.class">Sensio\Bundle\FrameworkExtraBundle\Templating\TemplateGuesser</parameter>
     <parameter key="sensio_framework_extra.controller.listener.class">Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener</parameter>
@@ -414,6 +414,9 @@
   <services>
     <service id="service_container" class="Symfony\Component\DependencyInjection\ContainerInterface" synthetic="true"/>
     <service id="AppBundle\AppBundle" class="AppBundle\AppBundle" public="false" autowire="true" autoconfigure="true"/>
+    <service id="AppBundle\Controller\ArticleController" class="AppBundle\Controller\ArticleController" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+    </service>
     <service id="AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
     </service>
@@ -436,7 +439,7 @@
     </service>
     <service id="argument_resolver.service" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-50"/>
-      <argument type="service" id="service_locator.4fa95da2fdbcbfebcdd38cf31706130c"/>
+      <argument type="service" id="service_locator.913c652f12fb9b029a9ae5e7b7e0deb4"/>
     </service>
     <service id="argument_resolver.default" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver" public="false">
       <tag name="controller.argument_value_resolver" priority="-100"/>
@@ -464,10 +467,10 @@
       <tag name="kernel.event_subscriber"/>
       <argument type="service" id="controller_name_converter"/>
     </service>
-    <service id="2_ce985c55cd4bc79befae54c60fb137b69f00a0ea49c1b36ef20019a692ba25a0" class="Symfony\Component\Config\Resource\SelfCheckingResourceChecker" public="false">
+    <service id="2_026b6071fca63b0250a239f04479512223b3397026c9c0c1d7d823180a3b27f9" class="Symfony\Component\Config\Resource\SelfCheckingResourceChecker" public="false">
       <tag name="config_cache.resource_checker" priority="-990"/>
     </service>
-    <service id="1_ce985c55cd4bc79befae54c60fb137b69f00a0ea49c1b36ef20019a692ba25a0" class="Symfony\Component\DependencyInjection\Config\ContainerParametersResourceChecker" public="false">
+    <service id="1_026b6071fca63b0250a239f04479512223b3397026c9c0c1d7d823180a3b27f9" class="Symfony\Component\DependencyInjection\Config\ContainerParametersResourceChecker" public="false">
       <tag name="config_cache.resource_checker" priority="-980"/>
       <argument type="service" id="service_container"/>
     </service>
@@ -509,9 +512,9 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator">
       <argument type="service" id="kernel"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app/Resources</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app/Resources</argument>
       <argument type="collection">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/app</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/app</argument>
       </argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner">
@@ -519,8 +522,8 @@
     </service>
     <service id="config_cache_factory" class="Symfony\Component\Config\ResourceCheckerConfigCacheFactory">
       <argument type="iterator">
-        <argument type="service" id="1_ce985c55cd4bc79befae54c60fb137b69f00a0ea49c1b36ef20019a692ba25a0"/>
-        <argument type="service" id="2_ce985c55cd4bc79befae54c60fb137b69f00a0ea49c1b36ef20019a692ba25a0"/>
+        <argument type="service" id="1_026b6071fca63b0250a239f04479512223b3397026c9c0c1d7d823180a3b27f9"/>
+        <argument type="service" id="2_026b6071fca63b0250a239f04479512223b3397026c9c0c1d7d823180a3b27f9"/>
       </argument>
     </service>
     <service id="fragment.handler" class="Symfony\Component\HttpKernel\DependencyInjection\LazyLoadingFragmentHandler">
@@ -604,8 +607,8 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -614,7 +617,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -634,7 +637,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
@@ -673,7 +676,7 @@
       <argument type="service" id="translator.selector"/>
     </service>
     <service id="translator.selector" class="Symfony\Component\Translation\MessageSelector" public="false"/>
-    <service id="1_ee40f1a519c8f1bf4de05ec40ca9d3a141889477f6cd021c5a2a5c3cb67a0bc7" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="1_504f2cd742087f75ff7134fd19e459db1916187d1f14b7cea4d8c27f7d778f41" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="session" type="service" id="session" on-invalid="ignore"/>
@@ -703,23 +706,23 @@
     <service id="session.flash_bag" class="Symfony\Component\HttpFoundation\Session\Flash\FlashBag" public="false"/>
     <service id="session.attribute_bag" class="Symfony\Component\HttpFoundation\Session\Attribute\AttributeBag" public="false"/>
     <service id="session.storage.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage" public="false">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/sessions</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
     </service>
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler" public="false">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/sessions/dev</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/sessions/dev</argument>
     </service>
     <service id="session.handler.write_check" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\WriteCheckSessionHandler" public="false"/>
     <service id="session_listener" class="Symfony\Component\HttpKernel\EventListener\SessionListener">
       <tag name="kernel.event_subscriber"/>
-      <argument type="service" id="1_ee40f1a519c8f1bf4de05ec40ca9d3a141889477f6cd021c5a2a5c3cb67a0bc7"/>
+      <argument type="service" id="1_504f2cd742087f75ff7134fd19e459db1916187d1f14b7cea4d8c27f7d778f41"/>
     </service>
     <service id="session.save_listener" class="Symfony\Component\HttpKernel\EventListener\SaveSessionListener">
       <tag name="kernel.event_subscriber"/>
     </service>
     <service id="form.resolved_type_factory" class="Symfony\Component\Form\Extension\DataCollector\Proxy\ResolvedTypeFactoryDataCollectorProxy">
-      <argument type="service" id="1_e7ed7750c4912f33fadc569e7489cf712cc89fc9a0216a1e69a016b0e62f13e1"/>
+      <argument type="service" id="1_43d9347e712963f195730d0c843f9639683cbfbf2d9be07a5615c6faff6461be"/>
       <argument type="service" id="data_collector.form"/>
     </service>
     <service id="form.registry" class="Symfony\Component\Form\FormRegistry">
@@ -966,12 +969,12 @@
     <service id="templating.filename_parser" class="Symfony\Bundle\FrameworkBundle\Templating\TemplateFilenameParser"/>
     <service id="templating.locator" class="Symfony\Bundle\FrameworkBundle\Templating\Loader\TemplateLocator" public="false">
       <argument type="service" id="file_locator"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev</argument>
     </service>
     <service id="templating.finder" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplateFinder" public="false">
       <argument type="service" id="kernel"/>
       <argument type="service" id="templating.filename_parser"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app/Resources</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app/Resources</argument>
     </service>
     <service id="templating.cache_warmer.template_paths" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\TemplatePathsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer" priority="20"/>
@@ -995,13 +998,13 @@
         <argument type="service" id="monolog.logger.templating" on-invalid="ignore"/>
       </call>
     </service>
-    <service id="2_43f552a879bf3789fee72320775b9b71491091d38a363a7e0baee3d3d9290df3" class="Doctrine\Common\Cache\ApcCache" public="false">
+    <service id="2_d04f94d728f1f09d8f3f890419bb5a09ebc1a6977cd7b06e583545350b3cec9e" class="Doctrine\Common\Cache\ApcCache" public="false">
       <call method="setNamespace">
         <argument></argument>
       </call>
     </service>
-    <service id="1_43f552a879bf3789fee72320775b9b71491091d38a363a7e0baee3d3d9290df3" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/validation.php</argument>
+    <service id="1_d04f94d728f1f09d8f3f890419bb5a09ebc1a6977cd7b06e583545350b3cec9e" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -1020,7 +1023,7 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
+          <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Component/Form/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -1039,14 +1042,14 @@
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/validation.php</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
     </service>
     <service id="validator.mapping.cache.symfony" class="Symfony\Component\Validator\Mapping\Cache\Psr6Cache" public="false">
-      <argument type="service" id="1_43f552a879bf3789fee72320775b9b71491091d38a363a7e0baee3d3d9290df3"/>
+      <argument type="service" id="1_d04f94d728f1f09d8f3f890419bb5a09ebc1a6977cd7b06e583545350b3cec9e"/>
     </service>
     <service id="validator.mapping.cache.doctrine.apc" class="Symfony\Component\Validator\Mapping\Cache\DoctrineCache" public="false">
-      <argument type="service" id="2_43f552a879bf3789fee72320775b9b71491091d38a363a7e0baee3d3d9290df3"/>
+      <argument type="service" id="2_d04f94d728f1f09d8f3f890419bb5a09ebc1a6977cd7b06e583545350b3cec9e"/>
     </service>
     <service id="validator.validator_factory" class="Symfony\Component\Validator\ContainerConstraintValidatorFactory" public="false">
       <argument type="service" id="service_locator.39e66930232432ca5ba91e98fdd8a17b"/>
@@ -1117,7 +1120,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
-      <argument>file:/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/profiler</argument>
+      <argument>file:/Library/WebServer/Documents/solo/symfony/var/cache/dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -1151,7 +1154,7 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/appDevDebugProjectContainer</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/appDevDebugProjectContainer</argument>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector" public="false">
       <tag name="data_collector" template="@WebProfiler/Collector/time.html.twig" id="time" priority="330"/>
@@ -1188,7 +1191,7 @@
         <argument type="service" id="cache.annotations"/>
       </call>
     </service>
-    <service id="1_e7ed7750c4912f33fadc569e7489cf712cc89fc9a0216a1e69a016b0e62f13e1" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+    <service id="1_43d9347e712963f195730d0c843f9639683cbfbf2d9be07a5615c6faff6461be" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
     <service id="form.type_extension.form.data_collector" class="Symfony\Component\Form\Extension\DataCollector\Type\DataCollectorTypeExtension" public="false">
       <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType"/>
       <argument type="service" id="data_collector.form"/>
@@ -1225,7 +1228,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" public="false">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony</argument>
       <argument>/_profiler/open?file=%%f&amp;line=%%l#line%%l</argument>
     </service>
     <service id="debug.event_dispatcher" class="Symfony\Component\HttpKernel\Debug\TraceableEventDispatcher">
@@ -1617,9 +1620,9 @@
     <service id="router.default" class="Symfony\Bundle\FrameworkBundle\Routing\Router" public="false">
       <tag name="monolog.logger" channel="router"/>
       <argument type="service" id="service_container"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app/config/routing_dev.yml</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app/config/routing_dev.yml</argument>
       <argument type="collection">
-        <argument key="cache_dir">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev</argument>
+        <argument key="cache_dir">/Library/WebServer/Documents/solo/symfony/var/cache/dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -1657,13 +1660,13 @@
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
     </service>
-    <service id="3_7943b1da57f749edf5f665130017cb206bb6784d4319e66509f101c89e551666" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/annotations.php</argument>
+    <service id="3_01719d6a6708e24000272ac89d90c3be72d16d4f376075d81851f3449e6075d9" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" public="false">
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
-    <service id="2_7943b1da57f749edf5f665130017cb206bb6784d4319e66509f101c89e551666" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
-    <service id="1_7943b1da57f749edf5f665130017cb206bb6784d4319e66509f101c89e551666" class="Doctrine\Common\Annotations\AnnotationRegistry" public="false">
+    <service id="2_01719d6a6708e24000272ac89d90c3be72d16d4f376075d81851f3449e6075d9" class="Doctrine\Common\Cache\ArrayCache" public="false"/>
+    <service id="1_01719d6a6708e24000272ac89d90c3be72d16d4f376075d81851f3449e6075d9" class="Doctrine\Common\Annotations\AnnotationRegistry" public="false">
       <call method="registerLoader">
         <argument>class_exists</argument>
       </call>
@@ -1671,7 +1674,7 @@
     <service id="annotations.reader" class="Doctrine\Common\Annotations\AnnotationReader" public="false">
       <call method="addGlobalIgnoredName">
         <argument>required</argument>
-        <argument type="service" id="1_7943b1da57f749edf5f665130017cb206bb6784d4319e66509f101c89e551666"/>
+        <argument type="service" id="1_01719d6a6708e24000272ac89d90c3be72d16d4f376075d81851f3449e6075d9"/>
       </call>
     </service>
     <service id="annotations.filesystem_cache" class="Doctrine\Common\Cache\FilesystemCache" public="false">
@@ -1680,11 +1683,11 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer" public="false">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/annotations.php</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
     </service>
     <service id="annotations.cache" class="Symfony\Component\Cache\DoctrineProvider" public="false">
-      <argument type="service" id="3_7943b1da57f749edf5f665130017cb206bb6784d4319e66509f101c89e551666"/>
+      <argument type="service" id="3_01719d6a6708e24000272ac89d90c3be72d16d4f376075d81851f3449e6075d9"/>
     </service>
     <service id="security.authorization_checker" class="Symfony\Component\Security\Core\Authorization\AuthorizationChecker">
       <argument type="service" id="security.token_storage"/>
@@ -2156,12 +2159,12 @@
     </service>
     <service id="security.authentication.listener.anonymous.main" class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
       <argument type="service" id="security.token_storage"/>
-      <argument>59cd11f2103700.14018009</argument>
+      <argument>59ce165463bca2.21622721</argument>
       <argument type="service" id="monolog.logger.security" on-invalid="null"/>
       <argument type="service" id="security.authentication.manager"/>
     </service>
     <service id="security.authentication.provider.anonymous.main" class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-      <argument>59cd11f2103700.14018009</argument>
+      <argument>59ce165463bca2.21622721</argument>
     </service>
     <service id="security.exception_listener.main" class="Symfony\Component\Security\Http\Firewall\ExceptionListener" public="false">
       <argument type="service" id="security.token_storage"/>
@@ -2206,7 +2209,7 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/twig</argument>
+        <argument key="cache">/Library/WebServer/Documents/solo/symfony/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="paths" type="collection"/>
         <argument key="date" type="collection">
@@ -2307,7 +2310,7 @@
     </service>
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
       <argument type="service" id="kernel"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app</argument>
       <argument type="collection"/>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer" public="false">
@@ -2317,40 +2320,40 @@
     </service>
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader" public="false">
       <argument type="collection"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony</argument>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/app/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader" public="false"/>
@@ -2375,7 +2378,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension" public="false">
@@ -2459,40 +2462,40 @@
       <tag name="twig.loader"/>
       <argument type="service" id="templating.locator"/>
       <argument type="service" id="templating.name_parser"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony</argument>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/swiftmailer-bundle/Resources/views</argument>
         <argument>Swiftmailer</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/app/Resources/views</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/app/Resources/views</argument>
       </call>
       <call method="addPath">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/Resources/views/Form</argument>
       </call>
     </service>
     <service id="templating.engine.twig" class="Symfony\Bundle\TwigBundle\TwigEngine" public="false">
@@ -2544,7 +2547,7 @@
     </service>
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor" public="false"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/logs/dev.log</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/logs/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -2563,9 +2566,9 @@
       <argument>100</argument>
       <argument>true</argument>
     </service>
-    <service id="3_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
-    <service id="2_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
-    <service id="1_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
+    <service id="3_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff" class="Swift_Transport_Esmtp_Auth_PlainAuthenticator" public="false"/>
+    <service id="2_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff" class="Swift_Transport_Esmtp_Auth_LoginAuthenticator" public="false"/>
+    <service id="1_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff" class="Swift_Transport_Esmtp_Auth_CramMd5Authenticator" public="false"/>
     <service id="swiftmailer.mailer.abstract" class="Swift_Mailer" abstract="true">
       <argument type="service" id="swiftmailer.transport"/>
     </service>
@@ -2582,9 +2585,9 @@
     </service>
     <service id="swiftmailer.transport.authhandler.abstract" class="Swift_Transport_Esmtp_AuthHandler" public="false" abstract="true">
       <argument type="collection">
-        <argument type="service" id="1_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
-        <argument type="service" id="2_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
-        <argument type="service" id="3_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
+        <argument type="service" id="1_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
+        <argument type="service" id="2_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
+        <argument type="service" id="3_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
       </argument>
     </service>
     <service id="swiftmailer.transport.eventdispatcher.abstract" class="Swift_Events_SimpleEventDispatcher" public="false" abstract="true"/>
@@ -2596,7 +2599,7 @@
     <service id="swiftmailer.transport.smtp.abstract" class="Swift_Transport_EsmtpTransport" public="false" abstract="true"/>
     <service id="swiftmailer.transport.spool.abstract" class="Swift_Transport_SpoolTransport" public="false" abstract="true"/>
     <service id="swiftmailer.spool.file.abstract" class="Swift_FileSpool" public="false" abstract="true">
-      <argument>/Library/WebServer/Documents/solo/first-symfony/app/../data/swiftmailer/spool</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/app/../data/swiftmailer/spool</argument>
     </service>
     <service id="swiftmailer.spool.memory.abstract" class="Swift_MemorySpool" public="false" abstract="true"/>
     <service id="swiftmailer.email_sender.listener" class="Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener">
@@ -2611,9 +2614,9 @@
     <service id="swiftmailer.mailer.default.transport.eventdispatcher" class="Swift_Events_SimpleEventDispatcher" public="false"/>
     <service id="swiftmailer.mailer.default.transport.authhandler" class="Swift_Transport_Esmtp_AuthHandler" public="false">
       <argument type="collection">
-        <argument type="service" id="1_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
-        <argument type="service" id="2_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
-        <argument type="service" id="3_641e2a1be03ae9a28ba8106638f5ebc8103ef863732060caabe3f065c29648a0"/>
+        <argument type="service" id="1_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
+        <argument type="service" id="2_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
+        <argument type="service" id="3_4d87f421c82a85f85bf93688225fd695b3020b0eaff510269fa7bb7b355d0aff"/>
       </argument>
       <call method="setUsername">
         <argument>null</argument>
@@ -2825,7 +2828,7 @@
         <argument type="service" id="doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/doctrine/orm/Proxies</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/doctrine/orm/Proxies</argument>
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -2852,7 +2855,7 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
-        <argument>/Library/WebServer/Documents/solo/first-symfony/src/AppBundle/Entity</argument>
+        <argument>/Library/WebServer/Documents/solo/symfony/src/AppBundle/Entity</argument>
       </argument>
     </service>
     <service id="doctrine.orm.default_metadata_driver" class="Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain" public="false">
@@ -2863,17 +2866,17 @@
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_metadata_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_3a9905f2ea1b59459b21fb8a57db4519275b19ec05ce32fe6ca2b0bcb5117e68</argument>
+        <argument>sf2orm_default_2dc5c04e2f2d055329bf66382a826d87bd3f66b6be904381e9ae9f1e80010643</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_result_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_3a9905f2ea1b59459b21fb8a57db4519275b19ec05ce32fe6ca2b0bcb5117e68</argument>
+        <argument>sf2orm_default_2dc5c04e2f2d055329bf66382a826d87bd3f66b6be904381e9ae9f1e80010643</argument>
       </call>
     </service>
     <service id="doctrine_cache.providers.doctrine.orm.default_query_cache" class="Doctrine\Common\Cache\ArrayCache">
       <call method="setNamespace">
-        <argument>sf2orm_default_3a9905f2ea1b59459b21fb8a57db4519275b19ec05ce32fe6ca2b0bcb5117e68</argument>
+        <argument>sf2orm_default_2dc5c04e2f2d055329bf66382a826d87bd3f66b6be904381e9ae9f1e80010643</argument>
       </call>
     </service>
     <service id="doctrine.orm.default_entity_listener_resolver" class="Doctrine\Bundle\DoctrineBundle\Mapping\ContainerAwareEntityListenerResolver">
@@ -3003,7 +3006,7 @@
         </argument>
       </call>
     </service>
-    <service id="2_818787ea5000923c8a6195ec1c2c1b075b94650a66ec7bc13221d7369eb392aa" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+    <service id="2_ebbef86ddd91d6b1c49f23a62963f318c19198e251fd020f811a0e2b00e06e9f" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
       <argument>null</argument>
       <argument>UTF-8</argument>
       <argument>1</argument>
@@ -3014,7 +3017,7 @@
         </argument>
       </call>
     </service>
-    <service id="1_818787ea5000923c8a6195ec1c2c1b075b94650a66ec7bc13221d7369eb392aa" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+    <service id="1_ebbef86ddd91d6b1c49f23a62963f318c19198e251fd020f811a0e2b00e06e9f" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
     <service id="web_profiler.controller.profiler" class="Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController">
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -3087,7 +3090,7 @@
       </argument>
       <argument>bottom</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -3100,11 +3103,11 @@
       <argument>true</argument>
     </service>
     <service id="web_profiler.csp.handler" class="Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler" public="false">
-      <argument type="service" id="1_818787ea5000923c8a6195ec1c2c1b075b94650a66ec7bc13221d7369eb392aa"/>
+      <argument type="service" id="1_ebbef86ddd91d6b1c49f23a62963f318c19198e251fd020f811a0e2b00e06e9f"/>
     </service>
     <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
       <tag name="twig.extension"/>
-      <argument type="service" id="2_818787ea5000923c8a6195ec1c2c1b075b94650a66ec7bc13221d7369eb392aa"/>
+      <argument type="service" id="2_ebbef86ddd91d6b1c49f23a62963f318c19198e251fd020f811a0e2b00e06e9f"/>
     </service>
     <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener">
       <tag name="kernel.event_subscriber"/>
@@ -3123,12 +3126,12 @@
     </service>
     <service id="web_server.command.server_run" class="Symfony\Bundle\WebServerBundle\Command\ServerRunCommand" public="false">
       <tag name="console.command"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/public</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/public</argument>
       <argument>dev</argument>
     </service>
     <service id="web_server.command.server_start" class="Symfony\Bundle\WebServerBundle\Command\ServerStartCommand" public="false">
       <tag name="console.command"/>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/public</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/public</argument>
       <argument>dev</argument>
     </service>
     <service id="web_server.command.server_stop" class="Symfony\Bundle\WebServerBundle\Command\ServerStopCommand" public="false">
@@ -3137,10 +3140,28 @@
     <service id="web_server.command.server_status" class="Symfony\Bundle\WebServerBundle\Command\ServerStatusCommand" public="false">
       <tag name="console.command"/>
     </service>
+    <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\ArticleController" class="AppBundle\Controller\ArticleController" autowire="true" abstract="true"/>
+    <service id="abstract.instanceof.AppBundle\Controller\ArticleController" class="AppBundle\Controller\ArticleController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Bundle\FrameworkBundle\Controller\Controller.0.AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.AppBundle\Controller\DefaultController" class="AppBundle\Controller\DefaultController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id="instanceof.Symfony\Component\Form\FormTypeInterface.0.AppBundle\Form\ArticleType" class="AppBundle\Form\ArticleType" public="false" autowire="true" abstract="true"/>
     <service id="abstract.instanceof.AppBundle\Form\ArticleType" class="AppBundle\Form\ArticleType" public="false" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id="service_locator.24b75319cd98f5b17598a3b81dccf160" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection"/>
+    </service>
+    <service id="service_locator.31ebdf7493ee1da3e30a7117f0a73821" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="article" type="service" id="autowired.AppBundle\Entity\Article"/>
+      </argument>
+    </service>
+    <service id="service_locator.a32f3efd6220afdca3c38ac609e894da" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="article" type="service" id="autowired.AppBundle\Entity\Article"/>
+      </argument>
+    </service>
     <service id="service_locator.4f8384c8862c511eefe34301cff90111" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection"/>
@@ -3151,10 +3172,16 @@
         <argument key="article" type="service" id="autowired.AppBundle\Entity\Article"/>
       </argument>
     </service>
-    <service id="service_locator.4fa95da2fdbcbfebcdd38cf31706130c" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
+    <service id="service_locator.913c652f12fb9b029a9ae5e7b7e0deb4" class="Symfony\Component\DependencyInjection\ServiceLocator" public="false">
       <tag name="container.service_locator"/>
       <argument type="collection">
+        <argument key="AppBundle\Controller\ArticleController:deleteAction" type="service" id="service_locator.a32f3efd6220afdca3c38ac609e894da"/>
+        <argument key="AppBundle\Controller\ArticleController:editAction" type="service" id="service_locator.a32f3efd6220afdca3c38ac609e894da"/>
+        <argument key="AppBundle\Controller\ArticleController:showAction" type="service" id="service_locator.31ebdf7493ee1da3e30a7117f0a73821"/>
         <argument key="AppBundle\Controller\DefaultController:articleDeleted" type="service" id="service_locator.3f62c6bb81252de28a5d315531e31172"/>
+        <argument key="AppBundle\Controller\ArticleController::deleteAction" type="service" id="service_locator.a32f3efd6220afdca3c38ac609e894da"/>
+        <argument key="AppBundle\Controller\ArticleController::editAction" type="service" id="service_locator.a32f3efd6220afdca3c38ac609e894da"/>
+        <argument key="AppBundle\Controller\ArticleController::showAction" type="service" id="service_locator.31ebdf7493ee1da3e30a7117f0a73821"/>
         <argument key="AppBundle\Controller\DefaultController::articleDeleted" type="service" id="service_locator.3f62c6bb81252de28a5d315531e31172"/>
       </argument>
     </service>
@@ -3362,42 +3389,42 @@
       <argument>true</argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter" public="false" lazy="true">
-      <argument>eSUO5mLP9k</argument>
+      <argument>g9Z1VSM4w3</argument>
       <argument>0</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>SHMyJmFAJT</argument>
+      <argument>5iHisXpFf-</argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>54b87mW7me</argument>
+      <argument>fMKlNqvoE-</argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>ovu+aryoLY</argument>
+      <argument>uvpXjqyFY7</argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false" lazy="true">
-      <argument>3SRzTJie7b</argument>
+      <argument>ibYcsrHYqI</argument>
       <argument>0</argument>
-      <argument>N-2M+f2cEZ+E58+SLUQhwA</argument>
-      <argument>/Library/WebServer/Documents/solo/first-symfony/var/cache/dev/pools</argument>
+      <argument>sx8BH8EwbDkf1KE0wxD7u5</argument>
+      <argument>/Library/WebServer/Documents/solo/symfony/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -3498,7 +3525,7 @@
     <service id="console.command.symfony_bundle_webserverbundle_command_serverstopcommand" alias="web_server.command.server_stop"/>
     <service id="console.command.symfony_bundle_webserverbundle_command_serverstatuscommand" alias="web_server.command.server_status"/>
     <service id="twig.loader" alias="twig.loader.filesystem"/>
-    <service id="service_locator.b8d2046fb854cde05549fb309e1a80d2" alias="1_ee40f1a519c8f1bf4de05ec40ca9d3a141889477f6cd021c5a2a5c3cb67a0bc7" public="false"/>
+    <service id="service_locator.b8d2046fb854cde05549fb309e1a80d2" alias="1_504f2cd742087f75ff7134fd19e459db1916187d1f14b7cea4d8c27f7d778f41" public="false"/>
     <service id="event_dispatcher" alias="debug.event_dispatcher"/>
     <service id="controller_resolver" alias="debug.controller_resolver" public="false"/>
     <service id="argument_resolver" alias="debug.argument_resolver" public="false"/>
