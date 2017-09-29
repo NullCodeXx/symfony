@@ -1,0 +1,68 @@
+body {
+    background-image: url('../content/symfony1.jpg');
+    background-size: 100%;
+}
+
+.header {
+    background-color: #4b5257;
+    color: #F9F9F9;
+}
+
+.center {
+    background-color: rgba(0,0,0,0.2);
+    color: #000;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.menu {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: rgba(0,0,0,0.5);
+    overflow: scroll;
+    height: 15em;
+}
+
+.footer {
+    background-color: #4b5257;
+    color: #F9F9F9;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#footer {
+    margin-top: 8%;
+    height: 10em;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    list-style: none;
+    color: red;
+    text-decoration: none;
+
+}

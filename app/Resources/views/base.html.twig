@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Bienvenue sur Symfony!{% endblock %}</title>
+        {% block stylesheets %}
+            <!-- appelle le css via la function assets -->
+            <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
+            <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body >
+        {% block body %}{% endblock %}
+
+        <!-- appelle le scrypt via la function assets -->
+        {% block javascripts %}
+            <script src="{{ asset('assets/js/main.js') }}"></script>
+            <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>

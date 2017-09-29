@@ -1,0 +1,15 @@
+{% extends ":twig:layout.html.twig" %}
+{% block content %}
+
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+    {{ article.title }}
+    {{ article.content }}
+    {{ article.createdAt|date('d-m-Y') }}
+    {{ article.updatedAt|date('d-m-Y') }}
+    {{ article.isEnabled }}
+    {{ article.nbLike }}
+
+{% endblock %}
+
